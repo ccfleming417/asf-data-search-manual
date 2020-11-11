@@ -1,0 +1,3 @@
+[submodule "hyp3-docs"]
+	path = hyp3-docs
+	url = https://github.com/ASFHyP3/ASFHyP3.git
