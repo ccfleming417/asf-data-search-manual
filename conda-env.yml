@@ -1,0 +1,16 @@
+name: search-docs
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.8
+  - pip
+  # For documentation
+  - mkdocs
+  - mkdocs-material
+  - mkdocs-material-extensions
+  - pip:
+      # For documentation
+      - hyp3_sdk==0.2.2  # also pinned in https://github.com/ASFHyP3/ASFHyP3/blob/main/docs/using/sdk.md
+      - mkdocstrings
+      - git+https://github.com/Jlrine2/mkdocs-gitsnippet-plugin.git
